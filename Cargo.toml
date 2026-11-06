@@ -3,7 +3,15 @@ name = "rs-pgcopy2arrow-ipc"
 version = "0.1.0"
 edition = "2024"
 
+description = "Convert PGCOPY format to Arrow IPC stream"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-pgcopy2arrow-ipc"
+homepage = "https://github.com/takanoriyanagitani/rs-pgcopy2arrow-ipc"
+documentation = "https://docs.rs/rs-pgcopy2arrow-ipc/latest"
+keywords = ["pgcopy", "arrow", "ipc", "stream", "wasi"]
+
 exclude = [
+  "pgcopy2arrow-ipc.wasm",
 ]
 
 [lints.rust]
